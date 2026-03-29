@@ -1,6 +1,6 @@
-# Meridian Intelligence Engine — Outputs
+# Meridian — Outputs
 
-This repo contains the output of a 6-agent AI pipeline I built for VC market intelligence. The topic for this run was **AI Agents** — the pipeline scraped real data, analysed it, wrote a report, had another agent tear it apart, and then synthesized a final version.
+This repo contains the output of a 6-agent AI pipeline I built for VC market intelligence. The topic for this run was **AI Agents** the pipeline scraped real data, analysed it, wrote a report, had another agent tear it apart, and then synthesized a final version.
 
 Here's what each file is.
 
