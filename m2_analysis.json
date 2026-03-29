@@ -1,0 +1,253 @@
+{
+  "trends": [
+    {
+      "name": "AI Agent Development Democratization",
+      "description": "Growing demand for no-code/low-code agent building tools from non-technical users. Practitioners actively seeking accessible ways to create AI agents.",
+      "evidence_strength": 8,
+      "direction": "rising",
+      "source": "YouTube",
+      "evidence_quotes": [
+        "I'd like to see a step by step tutorial to build a few agents of every class. A few projects ranging from basic to advanced would be pretty cool. I'd prefer to use Python",
+        "Thanks for this video, I'm figuring out exactly what I want my AI agent to do for me",
+        "Could you recommend any recent book or material to delve into AI Agents, preferably with hands-on learning?"
+      ]
+    },
+    {
+      "name": "Shift from Hype to Practical Workflow Automation",
+      "description": "Practitioners expressing fatigue with flashy demos and seeking agents that actually do useful, reliable work in production.",
+      "evidence_strength": 7,
+      "direction": "rising",
+      "source": "YouTube",
+      "evidence_quotes": [
+        "Still building useless projects. They don't dare to create something. Supposed to be useful.",
+        "Reliable AI products > Flashy demos",
+        "The magic 'this changes everything' click bait marketing hype is so unfair to audiences"
+      ]
+    },
+    {
+      "name": "Enterprise AI Infrastructure Investment",
+      "description": "Major funding flowing into AI robotics and infrastructure companies. Physical Intelligence valued at $5.6B seeking $1B more.",
+      "evidence_strength": 9,
+      "direction": "rising",
+      "source": "RSS (TechCrunch)",
+      "evidence_quotes": [
+        "Physical Intelligence is reportedly in talks to raise $1 billion, again. The deal would effectively double the company's $5.6 billion valuation in just four months.",
+        "SoftBank's new $40B loan points to a 2026 OpenAI IPO",
+        "Aetherflux reportedly raising Series B at $2 billion valuation"
+      ]
+    },
+    {
+      "name": "Consumer AI Subscription Growth",
+      "description": "Anthropic's Claude experiencing massive consumer adoption with paid subscriptions more than doubling this year.",
+      "evidence_strength": 8,
+      "direction": "rising",
+      "source": "RSS (TechCrunch)",
+      "evidence_quotes": [
+        "Anthropic's Claude popularity with paying consumers is skyrocketing",
+        "Claude paid subscriptions have more than doubled this year",
+        "Estimates for total Claude consumer users range from 18 million to 30 million"
+      ]
+    },
+    {
+      "name": "Autonomous Vehicle Commercial Scaling",
+      "description": "Waymo achieving significant commercial traction with paid robotaxi trips growing 10x in less than two years.",
+      "evidence_strength": 8,
+      "direction": "rising",
+      "source": "RSS (TechCrunch)",
+      "evidence_quotes": [
+        "Waymo's skyrocketing ridership in one chart",
+        "Waymo's weekly paid robotaxi trips have increased tenfold in less than two years"
+      ]
+    }
+  ],
+  "demand_signals": [
+    {
+      "need": "Reliable Production-Ready Agents",
+      "description": "Practitioners want agents that work reliably in real-world production scenarios, not just demos. Frustration with agents that hallucinate or fail in real applications.",
+      "mention_count": 12,
+      "source": "YouTube",
+      "evidence_quotes": [
+        "Still building useless projects. They don't dare to create something. Supposed to be useful.",
+        "im looking forward to the finished agent, once all this pre-alpha 'throw stuff at the wall and see what sticks' phase is over",
+        "Agents negotiating and acting... I thought I needed to master everything immediately"
+      ]
+    },
+    {
+      "need": "Security and Trust for Enterprise Adoption",
+      "description": "IT professionals skeptical about security of AI agents handling sensitive business communications.",
+      "mention_count": 5,
+      "source": "YouTube",
+      "evidence_quotes": [
+        "IT pros can't trust the security on this for email or slack",
+        "AI is new and scary, so build trust with pilots and comparisons with existing human workflow to prove effectiveness"
+      ]
+    },
+    {
+      "need": "Simplified Agent Building Without Complex Tools",
+      "description": "Demand for easier agent creation platforms. Some practitioners find n8n and similar tools too complex.",
+      "mention_count": 8,
+      "source": "YouTube",
+      "evidence_quotes": [
+        "n8n is over. It's over. You don't need n8n anymore. all of this is way too expensive not as good as, for example, building agentic systems with anti-gravity",
+        "If you want really to achieve something really good with N8N, you have to use code nodes. It makes it much, much harder for the majority of the people",
+        "This is what I've been looking for. So much info that looks nice, but isn't easily applied."
+      ]
+    },
+    {
+      "need": "Human-in-the-Loop Systems",
+      "description": "Practitioners emphasize that AI agents need human oversight rather than full autonomy.",
+      "mention_count": 6,
+      "source": "YouTube",
+      "evidence_quotes": [
+        "Gen AI needs the human in the loop to shine. Quit try to take the human out of the equation when they're the key to the whole process working.",
+        "Build the simplest working version first, then gradually add complexity while keeping humans in the loop for quality assurance",
+        "AI agents want's to become your brain instead of an extension of your brain"
+      ]
+    },
+    {
+      "need": "Practical Business Application Templates",
+      "description": "Demand for specific use case templates - especially for business operations, trading, and workflow automation.",
+      "mention_count": 7,
+      "source": "YouTube",
+      "evidence_quotes": [
+        "This gave me an idea to directly implement today with our clinicians, and I was able to create a URL web-based app",
+        "I need to hire someone to do this for my company I already have the whole set up all I need is someone to execute it",
+        "The most interesting thing to me is the agent that learns to use a computer like a human by controlling the keyboard and mouse"
+      ]
+    }
+  ],
+  "market_shifts": [
+    {
+      "from_what": "Cloud-based AI to Local/Device-based Agents",
+      "to_what": "Practitioners exploring local LLM deployments for cost reduction and privacy",
+      "shift_strength": 6,
+      "source": "YouTube",
+      "evidence_quotes": [
+        "the biggest thing is that you can have your LLM use the browser from your local machine instead of inside the cloud, and that actually opens up a good use case for the local llm's like Qwen TTS, now I can use a cheap API license like gemini flash to be the director of an Audio book factory at the fraction of the cost"
+      ]
+    },
+    {
+      "from_what": "Single AI Assistant to Multi-Agent Systems",
+      "to_what": "Coordination of multiple AI agents with role alternation and evaluation loops",
+      "shift_strength": 7,
+      "source": "YouTube",
+      "evidence_quotes": [
+        "Instead of keeping fixed roles (Generator vs Evaluator), the system alternates roles after each iteration",
+        "we collectively need more infrastructure like routers and then it's good to go. routers for AI tools"
+      ]
+    },
+    {
+      "from_what": "VC-funded AI Labs to Strategic Corporate AI",
+      "to_what": "Major corporates investing heavily in AI (Volkswagen $1B into Rivian, SoftBank $40B loan for AI)",
+      "shift_strength": 8,
+      "source": "RSS",
+      "evidence_quotes": [
+        "Rivian gets another $1B from Volkswagen",
+        "The two companies have been collaborating on a joint venture that would see Rivian tech go in VW's EVs",
+        "SoftBank's new $40B loan points to a 2026 OpenAI IPO"
+      ]
+    },
+    {
+      "from_what": "AI as Chatbots to AI as Infrastructure",
+      "to_what": "AI becoming底层 infrastructure (knowledge graphs, codebases, development tools)",
+      "shift_strength": 6,
+      "source": "RSS (Hacker News)",
+      "evidence_quotes": [
+        "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
+        "Sheet Ninja – Google Sheets as a CRUD Back End for Vibe Coders",
+        "What if AI doesn't need more RAM but better math?"
+      ]
+    }
+  ],
+  "contrarian_signals": [
+    {
+      "popular_narrative": "AI Agents Will Replace Human Workers",
+      "what_data_shows": "Practitioners strongly emphasize human-in-the-loop is essential; agents need humans to validate and guide. Gen AI 'needs the human in the loop to shine.'",
+      "confidence": 8,
+      "source": "YouTube"
+    },
+    {
+      "popular_narrative": "AI Agents Are Ready for Production",
+      "what_data_shows": "Multiple comments indicate we're still in 'pre-alpha' phase; agents hallucinate together; practitioners want 'finished agent' not prototypes.",
+      "confidence": 7,
+      "source": "YouTube"
+    },
+    {
+      "popular_narrative": "No-Code Tools Are Sufficient for Agent Building",
+      "what_data_shows": "Practitioners claim n8n is 'over' and too complex for most users; need code nodes for meaningful work.",
+      "confidence": 6,
+      "source": "YouTube"
+    },
+    {
+      "popular_narrative": "Autonomous AI Is Advancing Rapidly Toward AGI",
+      "what_data_shows": "Skepticism from practitioners: 'AGI is here? Lol I wish. I wish it were.' Real-world deployments still limited.",
+      "confidence": 6,
+      "source": "YouTube"
+    }
+  ],
+  "source_comparison": {
+    "youtube_practitioner_voice": {
+      "summary": "YouTube comments represent practitioner voice - actual builders and users expressing frustration with hype, seeking practical solutions, and emphasizing human oversight. Strong skepticism about agent maturity.",
+      "key_themes": [
+        "Demand for reliable production systems over flashy demos",
+        "Security concerns limiting enterprise adoption",
+        "Complexity barriers with current tools (n8n requires code)",
+        "Human-in-the-loop is non-negotiable",
+        "Learning hunger - tutorials and hands-on content in high demand",
+        "Personal/business use cases drive interest"
+      ],
+      "representative_quotes": [
+        "Reliable AI products > Flashy demos",
+        "IT pros can't trust the security on this for email or slack",
+        "Gen AI needs the human in the loop to shine",
+        "This is what I've been looking for. So much info that looks nice, but isn't easily applied."
+      ]
+    },
+    "rss_media_voice": {
+      "summary": "RSS feeds (TechCrunch, Hacker News, AVC) represent media/industry voice - focused on funding, valuations, IPOs, and market movements. Less emphasis on practical implementation challenges.",
+      "key_themes": [
+        "Massive funding rounds (Physical Intelligence $1B, Aetherflux $2B valuation)",
+        "Consumer subscription growth (Claude 2x subscriptions)",
+        "Commercial scaling wins (Waymo 10x ridership)",
+        "Corporate AI investments (Volkswagen/Rivian, SoftBank/OpenAI)",
+        "AI infrastructure challenges (data center real estate pushback)",
+        "Academic/research AI limitations (Stanford studies, Empire AI initiative)"
+      ],
+      "representative_quotes": [
+        "Physical Intelligence is reportedly in talks to raise $1 billion, again",
+        "Claude paid subscriptions have more than doubled this year",
+        "Waymo's weekly paid robotaxi trips have increased tenfold in less than two years",
+        "The real world is starting to push back on AI infrastructure"
+      ]
+    },
+    "key_differences": [
+      {
+        "aspect": "AI Agent Maturity",
+        "youtube": "Still in 'pre-alpha' phase, need reliable production agents",
+        "rss": "Focus on funding and valuations, implied progress narrative"
+      },
+      {
+        "aspect": "Enterprise Adoption Barriers",
+        "youtube": "Security concerns, complexity, need for human oversight",
+        "rss": "Limited coverage of adoption challenges, focus on partnerships/deals"
+      },
+      {
+        "aspect": "Success Metrics",
+        "youtube": "Practical utility, does it actually work for users",
+        "rss": "Funding amounts, valuations, growth percentages"
+      },
+      {
+        "aspect": "Future Outlook",
+        "youtube": "Cautious/skeptical - AGI 'not here', agents need work",
+        "rss": "Optimistic - massive investments, scaling milestones"
+      }
+    ]
+  },
+  "metadata": {
+    "analysis_date": "2026-03-29",
+    "youtube_comments_analyzed": 207,
+    "youtube_videos_scanned": 70,
+    "rss_articles_analyzed": 60,
+    "rss_sources": ["TechCrunch", "Hacker News", "AVC"]
+  }
+}
